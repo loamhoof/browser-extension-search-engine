@@ -1,0 +1,13 @@
+{
+    "name": "Generic search engine",
+    "version": "0",
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["main.js"]
+    },
+    "permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://search.loam.one/"
+    ]
+}
